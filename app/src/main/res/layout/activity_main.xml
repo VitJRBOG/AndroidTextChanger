@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vitjrbog.textchanger.MainActivity">
+
+    <TextView
+        android:id="@+id/action_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/action_name"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <TextView
+        android:id="@+id/status_result"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center_vertical"
+        android:text="@string/status_result"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:background="@drawable/textview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.200" />
+
+    <Button
+        android:id="@+id/cyr_to_lat"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/cyr_to_lat"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:onClick="onClickCyrToLat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+
+    <Button
+        android:id="@+id/lat_to_cyr"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/lat_to_cyr"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:onClick="onClickLatToCyr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/censor"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/censor"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:onClick="onClickCensor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.765" />
+
+    <Button
+        android:id="@+id/format"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="@string/format"
+        android:textSize="20sp"
+        android:background="@drawable/button"
+        android:onClick="onClickFormat"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.925" />
+
+</android.support.constraint.ConstraintLayout>

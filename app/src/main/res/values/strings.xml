@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Text Changer</string>
+
+    <string name="action_name">
+        Here was show title of action.
+    </string>
+    <string name="status_result">
+        Copy text to clipboard and press any button in this screen.
+    </string>
+
+    <string name="action_name_cyr_to_lat">Cyr To Lat</string>
+    <string name="action_name_lat_to_cyr">Lat To Cyr</string>
+    <string name="action_name_censor">Censor</string>
+    <string name="action_name_format">Format</string>
+
+    <string name="status_change_symb">Change symbols: </string>
+    <string name="status_censor">Words censored: </string>
+    <string name="status_format_spc_ins">Spaces inserted: </string>
+    <string name="status_format_spc_rem">Spaces removed: </string>
+    <string name="status_format_sym_upcs">Symbols uppercased: </string>
+
+    <string name="status_error">ERROR! </string>
+    <string name="status_error_unknown_oprtn_type">ERROR! Unknown type of operation.</string>
+    <string name="status_error_clipboard">
+        ERROR! Clipboard is empty or contained bad symbols.
+    </string>
+
+    <string name="cyr_to_lat">Cyr To Lat</string>
+    <string name="lat_to_cyr">Lat To Cyr</string>
+    <string name="censor">To censor</string>
+    <string name="format">To format</string>
+</resources>
